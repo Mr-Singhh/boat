@@ -1,0 +1,103 @@
+#container {
+    display: flex;
+
+    height: 700px;
+    width: 100%;
+    gap: 0px;
+}
+
+#address {
+    background-color: lightgrey;
+
+    height: 700px;
+    width: 900px
+}
+
+#payment {
+
+    height: 600px;
+    width: 800px
+}
+
+img {
+    height: 20px;
+}
+
+#already {
+    display: flex;
+
+}
+
+button {
+
+    height: 30px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    margin-left: 50px
+}
+
+#loginlink {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 18px;
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    font-family: inherit;
+    margin-left: 200px;
+
+
+}
+
+input {
+    height: 25px;
+    margin: 10px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px solid lightgrey;
+}
+
+#boat {
+    height: 60px;
+    margin: 10px;
+}
+
+#check {
+    margin-top: -180px;
+
+
+}
+
+#bank {
+    height: 30px
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
+}
+
+
+#payment {
+    width: 50%;
+    height: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: gray;
+    color: #fff;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #2ecc71;
+}
