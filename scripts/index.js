@@ -285,7 +285,7 @@ var productData = [
       cartArr.push( productData[11])
       alert("Item added to cart")
       localStorage.setItem("cart" , JSON.stringify(cartArr))
-      // window.location.href="HomePage.html"
+      
      }
      document.getElementById("btn13").addEventListener("click" , btn13)
    
@@ -294,7 +294,7 @@ var productData = [
       cartArr.push( productData[12])
       alert("Item added to cart")
       localStorage.setItem("cart" , JSON.stringify(cartArr))
-      // window.location.href="HomePage.html"
+     
      }
      document.getElementById("btn14").addEventListener("click" , btn14)
    
@@ -312,10 +312,10 @@ var productData = [
       cartArr.push( productData[14])
       alert("Item added to cart")
       localStorage.setItem("cart" , JSON.stringify(cartArr))
-      // window.location.href="HomePage.html"
+     
      }
      
-     // console.log(cartArr)
+    
        
      
    var addCartArr = JSON.parse(localStorage.getItem("cart"))
@@ -328,26 +328,15 @@ var productData = [
    
    
    
-  //  document.querySelector("#cham").addEventListener("click",  mycham1)
-  //  function mycham1(){
-  //    window.location.href="champion.html"
    
-  //  }
+  
    document.querySelector("#boat_logo").addEventListener("click",  mycham2)
    function mycham2(){
      window.location.reload();
    
    }
    
-  //  document.querySelector("#card_gift").addEventListener("click",  mycham3)
-  //  function mycham3(){
-  //    window.location.href="giftCard.html"
-   
-  //  }
-  //  document.querySelector("#myAccount").addEventListener("click",  mycham4)
-  //  function mycham4(){
-  //    window.location.href="/signup.html "
-   
+    //
   //  }
    document.querySelector("#myCart").addEventListener("click",  mycham5)
    function mycham5(){
@@ -355,11 +344,10 @@ var productData = [
    
    }
    
-  //  document.querySelector(".top_slider").addEventListener("click",  mycham6)
-  //  function mycham6(){
-  //    window.location.href="cable.html"
+  //  
+  //   
    
-  //  }
+  //  
    
    document.querySelector("#p1").addEventListener("click",  mya1)
    function mya1(){
@@ -437,15 +425,4 @@ var productData = [
     window.location.reload();   
    }
    
-  //  document.querySelector("#dd").addEventListener("click",  mya18)
-  //  function mya18(){
-  //    window.location.href="dailyDeals.html"
-   
-  //  }
-    
-  //  document.querySelector("#searchBtn").addEventListener("click",  mysea)
-  //  function mysea(){
-     
-  //    window.location.href="dailyDeals.html"
-   
-  //  }
+  //
