@@ -153,7 +153,7 @@ var cartdata = JSON.parse(localStorage.getItem("cart"));
         document.querySelector(".paybox").append(paybtn);
 
         paybtn.addEventListener("click",function(){
-            window.location.href = "Payment/payment.html";
+            window.location.href = "payment.html";
         })
     
     }

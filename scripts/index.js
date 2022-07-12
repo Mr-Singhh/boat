@@ -1,3 +1,8 @@
+function picture(){
+  
+}
+
+
 var productData = [
     { 
      image: "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/viper-green_720x.png?v=1642405569" ,
